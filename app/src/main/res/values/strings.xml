@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="value_in_brl">value in BRL</string>
+    <string name="value_in_eur">Value in EUR</string>
+    <string name="value_in_dolar">Value in DOLAR</string>
+</resources>
