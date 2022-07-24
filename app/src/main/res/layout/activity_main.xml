@@ -13,6 +13,7 @@
         android:textSize="32sp" />
 
     <EditText
+        android:id="@+id/et_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="value"
@@ -25,13 +26,28 @@
         android:textSize="32sp" />
 
     <TextView
+        android:id="@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_in_eur"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_in_dolar"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/text_dolar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/value_in_dolar"
         android:textSize="32sp" />
 
     <Button
-        android:text="calculate"
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="calculate" />
 </LinearLayout>
